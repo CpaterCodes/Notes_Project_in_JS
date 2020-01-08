@@ -2,7 +2,7 @@
   "name": "noteproject",
   "version": "1.0.0",
   "description": "",
-  "main": "note-model.js",
+  "main": "note-test.js",
   "directories": {
     "lib": "lib"
   },
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/CpaterCodes/Notes_Project_in_JS/issues"
   },
-  "homepage": "https://github.com/CpaterCodes/Notes_Project_in_JS#readme"
+  "homepage": "https://github.com/CpaterCodes/Notes_Project_in_JS#readme",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
 }
