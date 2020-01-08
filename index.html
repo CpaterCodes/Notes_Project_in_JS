@@ -13,8 +13,11 @@
       HELLO CITIZEN
     </div>
     <script>
-      noteController = new NoteController();
-      noteController.howdify();
+      var noteList = new NoteList();
+      noteList.createNote('favourite drink: Children');
+      noteController = new NoteController(noteList);
+      noteController.showNotes();
+      console.log(document.getElementById('app').innerHTML);
     </script>
   </body>
 </html>
