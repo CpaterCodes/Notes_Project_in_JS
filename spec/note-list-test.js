@@ -9,4 +9,5 @@ function testListCreatesNote() {
   var newNote = noteList.createNote('Test text');
   assert.includes(newNote, noteList.notes());
 };
+
 testListCreatesNote();
